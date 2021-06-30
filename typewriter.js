@@ -7,3 +7,4 @@ for (let i = 0; i < sentence.length; i++) {
   }, 50 * i) 
 }
 
+setTimeout(() => console.log(), 50*sentence.length);
